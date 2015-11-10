@@ -26,7 +26,7 @@ public class BrowserCompatibility {
 	   System.setProperty("webdriver.chrome.driver","D:\\Selenium\\Jars\\MyAssociatedJars\\chromedriver.exe");
 	  ChromeDriver driver=new ChromeDriver();
 	  
-	  /*//IE Driver Settings
+	  //IE Driver Settings
 	   System.setProperty("webdriver.ie.driver","D:\\Selenium\\Jars\\MyAssociatedJars\\IEDriverServer_64bits.exe");
 	   
 	  
@@ -34,8 +34,8 @@ public class BrowserCompatibility {
 	   capabilities.setBrowserName("internet explorer");
        capabilities.setCapability("javascript.enabled", true);
 	   capabilities.setCapability("nativeEvents",false);
-	   WebDriver driver=new InternetExplorerDriver(capabilities);
-	   */
+	   //WebDriver driver=new InternetExplorerDriver(capabilities);
+	   
 	  
 	   driver.get(baseurl);
 	   driver.manage().window().maximize();

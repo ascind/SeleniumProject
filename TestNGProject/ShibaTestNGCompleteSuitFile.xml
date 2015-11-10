@@ -1,0 +1,22 @@
+<suite name="RegressionCycleR1.0">
+<test name="ModuleI"> 
+    <classes> 
+      <class name="firsttestngpackage.FirstTestNGFile"/> 
+     </classes> 
+  </test>
+  <test name="ModuleII">
+    <classes>
+      <class name="firsttestngpackage.SingleScriptMultipleTestCases">
+        <methods>
+          <include name="verifyloginpage"/>
+          <include name="enterlogincredentials"/>
+        </methods>
+        </class>        
+    </classes>
+  </test>
+  <test name="ModuleIII"> 
+    <classes> 
+      <class name="firsttestngpackage.SingleTestScript"/> 
+     </classes> 
+  </test> 
+</suite>

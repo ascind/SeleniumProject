@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WikipediaSuit]">
+  <test name="RegressionSuit2(failed)">
+    <classes>
+      <class name="firsttestngpackage.SingleTestScript">
+        <methods>
+          <include name="verifyhomepagetitle"/>
+          <include name="verifyhomepagesecondlink"/>
+          <include name="verifyhomepagefirstlink"/>
+        </methods>
+      </class> <!-- firsttestngpackage.SingleTestScript -->
+      <class name="firsttestngpackage.SingleScriptMultipleTestCases">
+        <methods>
+          <include name="postconditions"/>
+          <include name="preconditions"/>
+        </methods>
+      </class> <!-- firsttestngpackage.SingleScriptMultipleTestCases -->
+    </classes>
+  </test> <!-- RegressionSuit2(failed) -->
+</suite> <!-- Failed suite [WikipediaSuit] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [WikipediaSuit]]">
+  <test name="RegressionSuit1(failed)(failed)">
+    <classes>
+      <class name="firsttestngpackage.TestNGSuitCompleteTestCases">
+        <methods>
+          <include name="preconditions"/>
+          <include name="enterlogincredentials"/>
+          <include name="postconditions"/>
+        </methods>
+      </class> <!-- firsttestngpackage.TestNGSuitCompleteTestCases -->
+    </classes>
+  </test> <!-- RegressionSuit1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [WikipediaSuit]] -->

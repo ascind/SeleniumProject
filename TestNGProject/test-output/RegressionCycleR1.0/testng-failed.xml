@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionCycleR1.0]">
+  <test name="ModuleII(failed)">
+    <classes>
+      <class name="firsttestngpackage.SingleScriptMultipleTestCases">
+        <methods>
+          <include name="postconditions"/>
+          <include name="GenerateHTMLReport"/>
+          <include name="preconditions"/>
+        </methods>
+      </class> <!-- firsttestngpackage.SingleScriptMultipleTestCases -->
+    </classes>
+  </test> <!-- ModuleII(failed) -->
+</suite> <!-- Failed suite [RegressionCycleR1.0] -->

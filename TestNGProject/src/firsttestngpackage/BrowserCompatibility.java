@@ -19,12 +19,12 @@ public class BrowserCompatibility {
   public void verifyhomepagetitle() {
 	  
 	  
-	  /*FireFox driver settings
-	  public WebDriver driver=new FirefoxDriver();*/
+	  //FireFox driver settings
+	   WebDriver driver=new FirefoxDriver();
 	  
 	  //Chrome Driver Settings
 	   System.setProperty("webdriver.chrome.driver","D:\\Selenium\\Jars\\MyAssociatedJars\\chromedriver.exe");
-	  ChromeDriver driver=new ChromeDriver();
+	  //ChromeDriver driver=new ChromeDriver();
 	  
 	  //IE Driver Settings
 	   System.setProperty("webdriver.ie.driver","D:\\Selenium\\Jars\\MyAssociatedJars\\IEDriverServer_64bits.exe");

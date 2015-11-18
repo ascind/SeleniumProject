@@ -41,7 +41,7 @@ public class Outlook {
 		      String host = "pop.gmail.com";// change accordingly
 		      String mailStoreType = "pop3";
 		      String username = "shibashankar.tripathy@gmail.com";// change accordingly
-		      //String password = "****";// change accordingly
+		      String password = "****";// change accordingly
 
 		      
 		  

@@ -66,5 +66,6 @@
 	<classpathentry kind="lib" path="D:/Selenium/Jars/MyAssociatedJars/javax.mail-1.4.4.jar.zip"/>
 	<classpathentry kind="lib" path="D:/Selenium/Jars/MyAssociatedJars/javax.mail-1.4.4.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium/Jars/MyAssociatedJars/ewsjavaapi-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/Jars/MyAssociatedJars/jexcelapi/jxl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

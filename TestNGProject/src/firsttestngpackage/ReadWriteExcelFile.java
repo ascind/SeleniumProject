@@ -20,7 +20,8 @@ public class ReadWriteExcelFile {
   @Test
   public void writeExcel() throws IOException, InvalidFormatException{
 	  
-	  String excelFileName = "D:\\Selenium\\TestData\\TestOutputs.xls";//name of excel file
+	  //String excelFileName = "D:\\Selenium\\TestData\\TestOutputs.xls";//name of excel file
+	  String excelFileName = "D:\\Selenium\\ScriptBackup\\TestNGProject\\TestOutputs.xls";//name of excel file
 	  try {
 			FileOutputStream fileOut = new FileOutputStream(excelFileName);
 			HSSFWorkbook workbook = new HSSFWorkbook();

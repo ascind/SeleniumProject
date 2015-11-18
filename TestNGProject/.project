@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>TestOutputs.xls</name>
+			<type>1</type>
+			<location>D:/Selenium/TestData/TestOutputs.xls</location>
+		</link>
+	</linkedResources>
 </projectDescription>
